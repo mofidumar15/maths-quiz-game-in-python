@@ -1,0 +1,28 @@
+print("Game is going to start. Please wait!")
+print ("Please use lowercase letter")
+input("Type 'yes' to start the game: ")
+print("Game is starting.")
+#first question 
+answer1 = input("What is the value of (1000 + 1000) * 0? ")
+if answer1 == "0":
+    print("You are correct!✅")
+else:
+    print("You are wrong❌")
+
+#second question
+answer2 = input("Who is your mathematics teacher? ")
+if answer2.lower()== "manoj sharma":
+    print("You are correct!✅")
+else:
+    print("You are wrong❌.")
+
+#third question
+answer3= input("Are you a student of oist bhopal🎓:")
+if answer3.lower()== "yes":
+    print("You are telling a truth👍")
+else:
+    print("You are a lying 👎")
+
+  
+    
+   
